@@ -22,6 +22,9 @@
             cuenta.innerHTML = "0" + contador;
 
         }
+        if (contador>=10){
+            cuenta.innerHTML=contador;
+        }
 
         if (contador==0){
             cuenta.innerHTML='0'+contador;
