@@ -1,0 +1,55 @@
+*{
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+
+body{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)) 
+           ,url(https://img.freepik.com/foto-gratis/fondo-pantalla-halloween-calabazas-malvadas_23-2149122584.jpg?w=2000);
+           background-size: cover;
+        
+    }
+
+    .contador{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 300px;
+    }
+
+
+    .contador h3 {
+        color: #DC5F00;
+        font-size: 30px;
+    }
+
+    .contador .cuenta {
+        font-size: 60px;
+        color: #DC5F00;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .botones button {
+        background-color: #DC5F00;
+        border-radius: 10px;
+        width: 80px;
+        height: 30px;
+        border: 1px solid #000;
+        cursor: pointer;
+    }
+    
+    .reset{
+        width: 160px;
+        background-color: #DC5F00;
+        border-radius: 10px;
+        height: 30px;
+        border: 1px solid #000;
+        cursor: pointer;
+    }
